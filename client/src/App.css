@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #d0d0d0;
+}
+
+h2{
+  color: #335eea;
+}
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex-grow: 1;
+}
+.chat-input button {
+  margin-left: 2px;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  height: 100%;
+  width: 100%;
+
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  width: 80%;
+  border: 1px solid rgb(124, 124, 124);
+  box-shadow: 10px 10px 5px rgb(157, 157, 157);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.chats {
+  padding: 3px;
+  overflow-y:auto;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+.avtar {
+  height: 40px;
+  margin: 5px 10px 0px 0px;
+  border-radius: 50%;
+  /* border: 1px solid rgb(211, 203, 203); */
+  padding: 2px;
+  /* background-color: rgb(228, 221, 181); */
+}
+
+.chat {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 90%;
+}
+.chat p {
+  flex-grow: 1;
+}
+
+.send .avtar {
+  order: 1;
+}
+.recieve .avtar {
+  order: 0;
+}
+
+.send {
+  align-self: flex-end;
+  background-color: rgb(23, 0, 196);
+  color: white;
+}
+.recieve {
+  background-color: rgb(16, 219, 155);
+  color: white;
+}
+
+.message-text{
+  margin: 1px;
+}
+
+.example-prompt{
+  background-color: #10163A;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.example-title{
+  text-align:center;
+  font-weight:bold;
+}
+
+.btn{
+  background-color: #FF0000;
+  color:white;
+}
