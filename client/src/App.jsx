@@ -26,7 +26,7 @@ function App() {
     // console.log({question})
     setLoading(true);
     axios
-      .post("https://chatbot-server-ohtt.onrender.com/chat", {
+      .post("https://davinci-chatbot-server.onrender.com/chat", {
         question,
       })
       .then((response) => {
